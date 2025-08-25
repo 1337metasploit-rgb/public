@@ -2005,7 +2005,7 @@
                                             (0, t.jsx)("p", { className: "text-center text-[#555] text-[14px] pb-4", style: { fontWeight: 400 }, children: "Publicado em 04/06/2025 15h42" }),
                                             (0, t.jsx)("div", {
                                                 className: "w-full",
-                                                children: (0, t.jsx)("img", { src: "/images/cnh-social-2025.jpg", alt: "CNH Social 2025 - Voc\xea no caminho da sua habilita\xe7\xe3o", className: "w-full rounded-lg shadow-lg" }),
+                                                children: (0, t.jsx)("img", { src: "https://cdn-mars.vendd.com.br/p/izzwFRdtH1iiY5XDY5ecx6HIo8qwA5Fvb3vNp9RpY5zhi3kY/v-files/assets/cnh-social-2025.jpg", alt: "CNH Social 2025 - Voc\xea no caminho da sua habilita\xe7\xe3o", className: "w-full rounded-lg shadow-lg" }),
                                             }),
                                             (0, t.jsx)("div", {
                                                 className: "mt-6",
