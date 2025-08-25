@@ -2005,7 +2005,7 @@
                                             (0, t.jsx)("p", { className: "text-center text-[#555] text-[14px] pb-4", style: { fontWeight: 400 }, children: "Publicado em 04/06/2025 15h42" }),
                                             (0, t.jsx)("div", {
                                                 className: "w-full",
-                                                children: (0, t.jsx)("img", { src: "/images/cnh-social-2025.jpg", alt: "CNH Social 2025 - Voc\xea no caminho da sua habilita\xe7\xe3o", className: "w-full rounded-lg shadow-lg" }),
+                                                children: (0, t.jsx)("img", { src: "https://resgate-promo.site/app-cnh/images/cnh-social-2025.jpg", alt: "CNH Social 2025 - Voc\xea no caminho da sua habilita\xe7\xe3o", className: "w-full rounded-lg shadow-lg" }),
                                             }),
                                             (0, t.jsx)("div", {
                                                 className: "mt-6",
@@ -2397,7 +2397,7 @@
                                                     (0, t.jsxs)("div", {
                                                         className: "flex items-center mb-3",
                                                         children: [
-                                                            (0, t.jsx)("img", { src: "/images/presidente-lula.jpg", alt: "Presidente Lula", className: "w-12 h-12 rounded-full mr-3" }),
+                                                            (0, t.jsx)("img", { src: "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2023/09/presidente-lula-participa-da-assembleia-geral-das-nacoes-unidas-pela-oitava-vez/53168816077_70d5362b80_k.jpg/@@images/4ae2b8fd-ec30-4321-ad15-1f5ad4786e4b.jpeg", alt: "Presidente Lula", className: "w-12 h-12 rounded-full mr-3" }),
                                                             (0, t.jsxs)("div", {
                                                                 children: [
                                                                     (0, t.jsx)("p", { className: "font-semibold text-gray-900", children: "Presidente Luiz In\xe1cio Lula da Silva" }),
@@ -3362,7 +3362,7 @@
                                   children: [
                                       (0, t.jsx)("a", {
                                           style: { color: "rgb(51, 51, 51)", fontSize: "0.9em", fontWeight: 500, textDecoration: "none" },
-                                          children: (0, t.jsx)(r.default, { src: "/app-cnh/icons/govbr-logo.png", alt: "gov.br", width: 100, height: 40, style: { width: "100px", margin: "10px" } }),
+                                          children: (0, t.jsx)(r.default, { src: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Gov.br_logo.svg/1200px-Gov.br_logo.svg.png", alt: "gov.br", width: 100, height: 40, style: { width: "100px", margin: "10px" } }),
                                       }),
                                       (0, t.jsx)(u, { showUserButton: !1 }),
                                   ],
@@ -3482,7 +3482,7 @@
                                   children: [
                                       (0, t.jsx)("a", {
                                           style: { color: "rgb(51, 51, 51)", fontSize: "0.9em", fontWeight: 500, textDecoration: "none" },
-                                          children: (0, t.jsx)(r.default, { src: "/app-cnh/icons/govbr-logo.png", alt: "gov.br", width: 100, height: 40, style: { width: "100px", margin: "10px" } }),
+                                          children: (0, t.jsx)(r.default, { src: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Gov.br_logo.svg/1200px-Gov.br_logo.svg.png", alt: "gov.br", width: 100, height: 40, style: { width: "100px", margin: "10px" } }),
                                       }),
                                       (0, t.jsx)(u, { showUserButton: !1 }),
                                   ],
@@ -3501,7 +3501,15 @@
                                                   (0, t.jsxs)("div", {
                                                       className: "flex items-center mb-2",
                                                       children: [
-                                                          (0, t.jsx)(r.default, { src: "https://resgate-promo.site/app-cnh/icons/id-card.png", alt: "CPF", width: 16, height: 16, className: "mr-2" }),
+                                                          (0, t.jsx)("img", {
+  src: "https://resgate-promo.site/app-cnh/icons/id-card.png",
+  alt: "CPF",
+  width: 16,
+  height: 16,
+  className: "mr-2",
+  loading: "lazy",
+  decoding: "async"
+}),
                                                           (0, t.jsx)("span", { className: "text-[#333333]", style: { fontFamily: "Rawline, sans-serif", fontSize: "12.8px" }, children: "N\xfamero do CPF" }),
                                                       ],
                                                   }),
