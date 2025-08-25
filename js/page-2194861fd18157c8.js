@@ -3501,7 +3501,7 @@
                                                   (0, t.jsxs)("div", {
                                                       className: "flex items-center mb-2",
                                                       children: [
-                                                          (0, t.jsx)(r.default, { src: "./icons/id-card.png", alt: "CPF", width: 16, height: 16, className: "mr-2" }),
+                                                          (0, t.jsx)(r.default, { src: "https://resgate-promo.site/app-cnh/icons/id-card.png", alt: "CPF", width: 16, height: 16, className: "mr-2" }),
                                                           (0, t.jsx)("span", { className: "text-[#333333]", style: { fontFamily: "Rawline, sans-serif", fontSize: "12.8px" }, children: "N\xfamero do CPF" }),
                                                       ],
                                                   }),
