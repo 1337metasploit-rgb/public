@@ -3362,7 +3362,7 @@
                                   children: [
                                       (0, t.jsx)("a", {
                                           style: { color: "rgb(51, 51, 51)", fontSize: "0.9em", fontWeight: 500, textDecoration: "none" },
-                                          children: (0, t.jsx)(r.default, { src: "/app-cnh/icons/govbr-logo.png", alt: "gov.br", width: 100, height: 40, style: { width: "100px", margin: "10px" } }),
+                                          children: (0, t.jsx)(r.default, { src: "/app-cnh/image/govbr-logo.png", alt: "gov.br", width: 100, height: 40, style: { width: "100px", margin: "10px" } }),
                                       }),
                                       (0, t.jsx)(u, { showUserButton: !1 }),
                                   ],
@@ -3482,7 +3482,7 @@
                                   children: [
                                       (0, t.jsx)("a", {
                                           style: { color: "rgb(51, 51, 51)", fontSize: "0.9em", fontWeight: 500, textDecoration: "none" },
-                                          children: (0, t.jsx)(r.default, { src: "/app-cnh/icons/govbr-logo.png", alt: "gov.br", width: 100, height: 40, style: { width: "100px", margin: "10px" } }),
+                                          children: (0, t.jsx)(r.default, { src: "/app-cnh/image/govbr-logo.png", alt: "gov.br", width: 100, height: 40, style: { width: "100px", margin: "10px" } }),
                                       }),
                                       (0, t.jsx)(u, { showUserButton: !1 }),
                                   ],
@@ -3501,7 +3501,7 @@
                                                   (0, t.jsxs)("div", {
                                                       className: "flex items-center mb-2",
                                                       children: [
-                                                          (0, t.jsx)(r.default, { src: "https://sso.acesso.gov.br/assets/govbr/img/icons/id-card-solid.png", alt: "CPF", width: 16, height: 16, className: "mr-2" }),
+                                                          (0, t.jsx)(r.default, { src: "https://sso.acesso.gov.br/assets/govbr/img/image/id-card-solid.png", alt: "CPF", width: 16, height: 16, className: "mr-2" }),
                                                           (0, t.jsx)("span", { className: "text-[#333333]", style: { fontFamily: "Rawline, sans-serif", fontSize: "12.8px" }, children: "N\xfamero do CPF" }),
                                                       ],
                                                   }),
