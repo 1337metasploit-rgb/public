@@ -407,14 +407,14 @@
                                         className: "grid grid-cols-3 gap-1 mb-4",
                                         children: [
                                             "https://images.unsplash.com/photo-1552053831-71594a27632d?w=150&h=150&fit=crop",
-                                            "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop",
-                                            "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=150&h=150&fit=crop",
-                                            "https://images.unsplash.com/photo-1574144611937-0df059b5ef3e?w=150&h=150&fit=crop",
-                                            "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?w=150&h=150&fit=crop",
-                                            "https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5?w=150&h=150&fit=crop",
-                                            "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop",
-                                            "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=150&h=150&fit=crop",
-                                            "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&h=150&fit=crop",
+                                            "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&amp;h=150&amp;fit=crop",
+                                            "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=150&amp;h=150&amp;fit=crop",
+                                            "https://images.unsplash.com/photo-1574144611937-0df059b5ef3e?w=150&amp;h=150&amp;fit=crop",
+                                            "https://images.unsplash.com/photo-1518717758536-85ae29035b6d?w=150&amp;h=150&amp;fit=crop",
+                                            "https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5?w=150&amp;h=150&amp;fit=crop",
+                                            "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&amp;h=150&amp;fit=crop",
+                                            "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=150&amp;h=150&amp;fit=crop",
+                                            "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&amp;h=150&amp;fit=crop",
                                         ].map((e, s) =>
                                             (0, t.jsxs)(
                                                 "div",
@@ -653,7 +653,7 @@
                                         onClick: () => c(s),
                                         children: d
                                             ? (0, t.jsxs)(t.Fragment, {
-                                                  children: [(0, t.jsx)("span", { className: "block sm:hidden", children: "Selecionado âœ“" }), (0, t.jsxs)("span", { className: "hidden sm:block", children: ["CNH ", s, " Selecionada âœ“"] })],
+                                                  children: [(0, t.jsx)("span", { className: "block sm:hidden", children: "Selecionado ✓" }), (0, t.jsxs)("span", { className: "hidden sm:block", children: ["CNH ", s, " Selecionada ✓"] })],
                                               })
                                             : (0, t.jsxs)(t.Fragment, {
                                                   children: [(0, t.jsxs)("span", { className: "block sm:hidden", children: ["Selecionar ", s] }), (0, t.jsxs)("span", { className: "hidden sm:block", children: ["Selecionar CNH ", s] })],
@@ -716,7 +716,7 @@
                                                 (0, t.jsxs)("span", { className: "text-gray-500 flex items-center", children: [(0, t.jsx)(A.A, { className: "w-3 h-3 mr-1" }), " ", s.distance, " de dist\xe2ncia"] }),
                                                 (0, t.jsxs)("span", {
                                                     className: "text-yellow-600 flex items-center",
-                                                    children: [(0, t.jsx)(S, { rating: s.rating, maxRating: s.maxRating }), (0, t.jsxs)("span", { className: "ml-1", children: [s.rating, "/", s.maxRating] })],
+                                                    children: [(0, t.jsx)(S, { rating: s.rating, maxRating: s.maxRating }), (0, t.jsxs)("span", { className: "ml-1", children: [s.rating, "../index.html", s.maxRating] })],
                                                 }),
                                                 (0, t.jsx)("div", {
                                                     className: "inline-flex items-center rounded-full border px-2.5 py-0.5 font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent hover:bg-primary/80 w-fit text-xs ".concat(
@@ -733,7 +733,7 @@
                                     children: (0, t.jsx)("button", {
                                         className: "px-3 py-1 text-xs font-medium rounded transition-colors ".concat(a ? "text-white bg-green-600 hover:bg-green-700" : "text-white bg-[#1351B4] hover:bg-[#0c326f]"),
                                         onClick: () => (null == i ? void 0 : i(s)),
-                                        children: a ? "Selecionada âœ“" : "Selecionar",
+                                        children: a ? "Selecionada ✓" : "Selecionar",
                                     }),
                                 }),
                             ],
@@ -953,10 +953,10 @@
                                                                     (0, t.jsxs)("ul", {
                                                                         className: "text-xs text-blue-700 space-y-1",
                                                                         children: [
-                                                                            (0, t.jsx)("li", { children: "â€¢ Dias \xfateis e s\xe1bados dispon\xedveis" }),
-                                                                            (0, t.jsx)("li", { children: "â€¢ Seg-Sex: 08:00 \xe0s 17:00 | S\xe1b: 08:00 \xe0s 12:00" }),
-                                                                            (0, t.jsx)("li", { children: "â€¢ Agendamento a partir da pr\xf3xima semana" }),
-                                                                            (0, t.jsxs)("li", { children: ["â€¢ Dura\xe7\xe3o do curso: ", N.duration] }),
+                                                                            (0, t.jsx)("li", { children: "• Dias \xfateis e s\xe1bados dispon\xedveis" }),
+                                                                            (0, t.jsx)("li", { children: "• Seg-Sex: 08:00 \xe0s 17:00 | S\xe1b: 08:00 \xe0s 12:00" }),
+                                                                            (0, t.jsx)("li", { children: "• Agendamento a partir da pr\xf3xima semana" }),
+                                                                            (0, t.jsxs)("li", { children: ["• Dura\xe7\xe3o do curso: ", N.duration] }),
                                                                         ],
                                                                     }),
                                                                 ],
@@ -1394,10 +1394,10 @@
                                                                                 (0, t.jsxs)("ul", {
                                                                                     className: "text-sm text-gray-600 space-y-1 text-left",
                                                                                     children: [
-                                                                                        (0, t.jsx)("li", { children: "â€¢ Certifique-se de estar em um local bem iluminado" }),
-                                                                                        (0, t.jsx)("li", { children: "â€¢ Remova \xf3culos escuros ou objetos que cubram o rosto" }),
-                                                                                        (0, t.jsx)("li", { children: "â€¢ Posicione a c\xe2mera na altura dos olhos" }),
-                                                                                        (0, t.jsx)("li", { children: "â€¢ Mantenha o rosto centralizado na tela" }),
+                                                                                        (0, t.jsx)("li", { children: "• Certifique-se de estar em um local bem iluminado" }),
+                                                                                        (0, t.jsx)("li", { children: "• Remova \xf3culos escuros ou objetos que cubram o rosto" }),
+                                                                                        (0, t.jsx)("li", { children: "• Posicione a c\xe2mera na altura dos olhos" }),
+                                                                                        (0, t.jsx)("li", { children: "• Mantenha o rosto centralizado na tela" }),
                                                                                     ],
                                                                                 }),
                                                                             ],
@@ -1566,10 +1566,10 @@
                                                                     (0, t.jsxs)("ul", {
                                                                         className: "text-sm text-gray-600 space-y-1 text-left",
                                                                         children: [
-                                                                            (0, t.jsx)("li", { children: "â€¢ Ap\xf3s o pagamento, voc\xea receber\xe1 um e-mail de confirma\xe7\xe3o" }),
-                                                                            (0, t.jsx)("li", { children: "â€¢ As aulas come\xe7ar\xe3o conforme cronograma da autoescola" }),
-                                                                            (0, t.jsx)("li", { children: "â€¢ Mantenha seus documentos sempre atualizados" }),
-                                                                            (0, t.jsx)("li", { children: "â€¢ Em caso de d\xfavidas, entre em contato com a autoescola" }),
+                                                                            (0, t.jsx)("li", { children: "• Ap\xf3s o pagamento, voc\xea receber\xe1 um e-mail de confirma\xe7\xe3o" }),
+                                                                            (0, t.jsx)("li", { children: "• As aulas come\xe7ar\xe3o conforme cronograma da autoescola" }),
+                                                                            (0, t.jsx)("li", { children: "• Mantenha seus documentos sempre atualizados" }),
+                                                                            (0, t.jsx)("li", { children: "• Em caso de d\xfavidas, entre em contato com a autoescola" }),
                                                                         ],
                                                                     }),
                                                                 ],
@@ -1813,10 +1813,10 @@
                                                                 (0, t.jsxs)("ul", {
                                                                     className: "text-sm text-yellow-700 space-y-1",
                                                                     children: [
-                                                                        (0, t.jsx)("li", { children: "â€¢ Apresente documento oficial com foto e este comprovante na autoescola" }),
-                                                                        (0, t.jsx)("li", { children: "â€¢ O QR Code acima \xe9 \xfanico e serve para valida\xe7\xe3o da sua matr\xedcula" }),
-                                                                        (0, t.jsx)("li", { children: "â€¢ Guarde este comprovante durante todo o processo de habilita\xe7\xe3o" }),
-                                                                        (0, t.jsx)("li", { children: "â€¢ Em caso de d\xfavidas, entre em contato com a autoescola ou DENATRAN" }),
+                                                                        (0, t.jsx)("li", { children: "• Apresente documento oficial com foto e este comprovante na autoescola" }),
+                                                                        (0, t.jsx)("li", { children: "• O QR Code acima \xe9 \xfanico e serve para valida\xe7\xe3o da sua matr\xedcula" }),
+                                                                        (0, t.jsx)("li", { children: "• Guarde este comprovante durante todo o processo de habilita\xe7\xe3o" }),
+                                                                        (0, t.jsx)("li", { children: "• Em caso de d\xfavidas, entre em contato com a autoescola ou DENATRAN" }),
                                                                     ],
                                                                 }),
                                                             ],
@@ -1874,7 +1874,7 @@
                                                         "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-12 px-8 w-full max-w-md mx-auto bg-[#1451B4] hover:bg-[#0c326f] text-white font-medium transition-all duration-200 text-lg",
                                                     onClick: () => {
                                                         //checkout aqui 
-                                                        window.open("/app-cnh/checkout");
+                                                        window.open("checkout/index.html");
                                                     },
                                                     children: [(0, t.jsx)(k.A, { className: "w-5 h-5" }), (0, t.jsxs)("span", { children: ["Finalizar Inscri\xe7\xe3o - ", r.price] })],
                                                 }),
@@ -2005,7 +2005,7 @@
                                             (0, t.jsx)("p", { className: "text-center text-[#555] text-[14px] pb-4", style: { fontWeight: 400 }, children: "Publicado em 04/06/2025 15h42" }),
                                             (0, t.jsx)("div", {
                                                 className: "w-full",
-                                                children: (0, t.jsx)("img", { src: "https://resgate-promo.site/app-cnh/images/cnh-social-2025.jpg", alt: "CNH Social 2025 - Voc\xea no caminho da sua habilita\xe7\xe3o", className: "w-full rounded-lg shadow-lg" }),
+                                                children: (0, t.jsx)("img", { src: "/images/cnh-social-2025.jpg", alt: "CNH Social 2025 - Voc\xea no caminho da sua habilita\xe7\xe3o", className: "w-full rounded-lg shadow-lg" }),
                                             }),
                                             (0, t.jsx)("div", {
                                                 className: "mt-6",
@@ -2091,15 +2091,15 @@
                                                         className: "space-y-3 text-gray-700",
                                                         children: [
                                                             (0, t.jsxs)("li", {
-                                                                children: ["â€¢ ", (0, t.jsx)("strong", { children: "Carteira de motorista gratuita:" }), " CNH sem custo para pessoas de baixa renda cadastradas no Cad\xdanico"],
+                                                                children: ["• ", (0, t.jsx)("strong", { children: "Carteira de motorista gratuita:" }), " CNH sem custo para pessoas de baixa renda cadastradas no Cad\xdanico"],
                                                             }),
                                                             (0, t.jsxs)("li", {
-                                                                children: ["â€¢ ", (0, t.jsx)("strong", { children: "Mais oportunidades de trabalho:" }), " Acesso a vagas que exigem habilita\xe7\xe3o como motorista, entregador, vendedor"],
+                                                                children: ["• ", (0, t.jsx)("strong", { children: "Mais oportunidades de trabalho:" }), " Acesso a vagas que exigem habilita\xe7\xe3o como motorista, entregador, vendedor"],
                                                             }),
-                                                            (0, t.jsxs)("li", { children: ["â€¢ ", (0, t.jsx)("strong", { children: "Aulas te\xf3ricas e pr\xe1ticas:" }), " Treinamento completo gratuito em autoescolas credenciadas"] }),
-                                                            (0, t.jsxs)("li", { children: ["â€¢ ", (0, t.jsx)("strong", { children: "Flexibilidade de hor\xe1rios:" }), " Aulas adaptadas \xe0 disponibilidade do benefici\xe1rio"] }),
-                                                            (0, t.jsxs)("li", { children: ["â€¢ ", (0, t.jsx)("strong", { children: "Inclus\xe3o social:" }), " Maior autonomia e mobilidade urbana para toda a fam\xedlia"] }),
-                                                            (0, t.jsxs)("li", { children: ["â€¢ ", (0, t.jsx)("strong", { children: "Impacto econ\xf4mico direto:" }), " Economia de at\xe9 R$ 3.000 reais no processo de habilita\xe7\xe3o"] }),
+                                                            (0, t.jsxs)("li", { children: ["• ", (0, t.jsx)("strong", { children: "Aulas te\xf3ricas e pr\xe1ticas:" }), " Treinamento completo gratuito em autoescolas credenciadas"] }),
+                                                            (0, t.jsxs)("li", { children: ["• ", (0, t.jsx)("strong", { children: "Flexibilidade de hor\xe1rios:" }), " Aulas adaptadas \xe0 disponibilidade do benefici\xe1rio"] }),
+                                                            (0, t.jsxs)("li", { children: ["• ", (0, t.jsx)("strong", { children: "Inclus\xe3o social:" }), " Maior autonomia e mobilidade urbana para toda a fam\xedlia"] }),
+                                                            (0, t.jsxs)("li", { children: ["• ", (0, t.jsx)("strong", { children: "Impacto econ\xf4mico direto:" }), " Economia de at\xe9 R$ 3.000 reais no processo de habilita\xe7\xe3o"] }),
                                                         ],
                                                     }),
                                                 ],
@@ -2224,12 +2224,12 @@
                                                             (0, t.jsxs)("ul", {
                                                                 className: "space-y-3 text-gray-700",
                                                                 children: [
-                                                                    (0, t.jsxs)("li", { children: ["â€¢ ", (0, t.jsx)("strong", { children: "Categoria A:" }), " Motocicletas, motonetas e ciclomotores - Idade m\xednima: 18 anos"] }),
-                                                                    (0, t.jsxs)("li", { children: ["â€¢ ", (0, t.jsx)("strong", { children: "Categoria B:" }), " Autom\xf3veis at\xe9 8 lugares e 3.500kg - Idade m\xednima: 18 anos"] }),
-                                                                    (0, t.jsxs)("li", { children: ["â€¢ ", (0, t.jsx)("strong", { children: "Categoria C:" }), " Ve\xedculos de carga acima de 3.500kg - Idade m\xednima: 21 anos"] }),
-                                                                    (0, t.jsxs)("li", { children: ["â€¢ ", (0, t.jsx)("strong", { children: "Categoria D:" }), " Transporte de passageiros - Idade m\xednima: 21 anos"] }),
-                                                                    (0, t.jsxs)("li", { children: ["â€¢ ", (0, t.jsx)("strong", { children: "Categoria E:" }), " Ve\xedculos com reboque acima de 6.000kg - Idade m\xednima: 21 anos"] }),
-                                                                    (0, t.jsxs)("li", { children: ["â€¢ ", (0, t.jsx)("strong", { children: "Requisitos:" }), " Renda familiar at\xe9 3 sal\xe1rios m\xednimos ou Cad\xdanico ativo"] }),
+                                                                    (0, t.jsxs)("li", { children: ["• ", (0, t.jsx)("strong", { children: "Categoria A:" }), " Motocicletas, motonetas e ciclomotores - Idade m\xednima: 18 anos"] }),
+                                                                    (0, t.jsxs)("li", { children: ["• ", (0, t.jsx)("strong", { children: "Categoria B:" }), " Autom\xf3veis at\xe9 8 lugares e 3.500kg - Idade m\xednima: 18 anos"] }),
+                                                                    (0, t.jsxs)("li", { children: ["• ", (0, t.jsx)("strong", { children: "Categoria C:" }), " Ve\xedculos de carga acima de 3.500kg - Idade m\xednima: 21 anos"] }),
+                                                                    (0, t.jsxs)("li", { children: ["• ", (0, t.jsx)("strong", { children: "Categoria D:" }), " Transporte de passageiros - Idade m\xednima: 21 anos"] }),
+                                                                    (0, t.jsxs)("li", { children: ["• ", (0, t.jsx)("strong", { children: "Categoria E:" }), " Ve\xedculos com reboque acima de 6.000kg - Idade m\xednima: 21 anos"] }),
+                                                                    (0, t.jsxs)("li", { children: ["• ", (0, t.jsx)("strong", { children: "Requisitos:" }), " Renda familiar at\xe9 3 sal\xe1rios m\xednimos ou Cad\xdanico ativo"] }),
                                                                 ],
                                                             }),
                                                         ],
@@ -2376,14 +2376,14 @@
                                                             (0, t.jsxs)("p", {
                                                                 className: "flex",
                                                                 children: [
-                                                                    (0, t.jsx)("strong", { children: "â†’ " }),
+                                                                    (0, t.jsx)("strong", { children: "→ " }),
                                                                     (0, t.jsx)("button", { className: "text-blue-600 hover:text-blue-800 underline transition-colors ml-2", onClick: s, children: "Inscreva-se no CNH Social 2025" }),
                                                                 ],
                                                             }),
                                                             (0, t.jsxs)("p", {
                                                                 className: "flex",
                                                                 children: [
-                                                                    (0, t.jsx)("strong", { children: "â†’ " }),
+                                                                    (0, t.jsx)("strong", { children: "→ " }),
                                                                     (0, t.jsx)("button", { className: "text-blue-600 hover:text-blue-800 underline transition-colors ml-2", onClick: s, children: "Consulte autoescolas credenciadas" }),
                                                                 ],
                                                             }),
@@ -2397,7 +2397,7 @@
                                                     (0, t.jsxs)("div", {
                                                         className: "flex items-center mb-3",
                                                         children: [
-                                                            (0, t.jsx)("img", { src: "https://www.gov.br/planalto/pt-br/acompanhe-o-planalto/noticias/2023/09/presidente-lula-participa-da-assembleia-geral-das-nacoes-unidas-pela-oitava-vez/53168816077_70d5362b80_k.jpg/@@images/4ae2b8fd-ec30-4321-ad15-1f5ad4786e4b.jpeg", alt: "Presidente Lula", className: "w-12 h-12 rounded-full mr-3" }),
+                                                            (0, t.jsx)("img", { src: "/images/presidente-lula.jpg", alt: "Presidente Lula", className: "w-12 h-12 rounded-full mr-3" }),
                                                             (0, t.jsxs)("div", {
                                                                 children: [
                                                                     (0, t.jsx)("p", { className: "font-semibold text-gray-900", children: "Presidente Luiz In\xe1cio Lula da Silva" }),
@@ -2578,7 +2578,7 @@
                         };
                         let e = document.createElement("script");
                         return (
-                            (e.src = "https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places&callback=initMap"),
+                            (e.src = "https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&amp;libraries=places&amp;callback=initMap"),
                             (e.async = !0),
                             (e.defer = !0),
                             document.head.appendChild(e),
@@ -2623,7 +2623,7 @@
                                 a = await fetch("https://brasilapi.com.br/api/cep/v1/".concat(s)),
                                 t = await a.json();
                             if (t.type === "validation_error" || t.message) throw Error("CEP n\xe3o encontrado");
-                            // Mapear os campos da Brasil API para o formato esperado pelo cÃ³digo
+                            // Mapear os campos da Brasil API para o formato esperado pelo código
                             return {
                                 cep: t.cep,
                                 logradouro: t.street,
@@ -2754,7 +2754,7 @@
                                 t = await a.json();
                             if (t.status === 200 && t.dados && t.dados.length > 0) {
                                 let userData = t.dados[0];
-                                // Mapear os campos da nova API para o formato esperado pelo cÃ³digo
+                                // Mapear os campos da nova API para o formato esperado pelo código
                                 let mappedData = {
                                     cpf: userData.CPF,
                                     nome: userData.NOME,
@@ -3046,7 +3046,7 @@
                                                               (0, t.jsx)("p", {
                                                                   className: "text-sm text-gray-500 mb-1",
                                                                   style: { fontFamily: "Rawline, sans-serif" },
-                                                                  children: "Publicado em 30/07/2019 19h44 â€¢ Atualizado em 04/06/2025 11h48",
+                                                                  children: "Publicado em 30/07/2019 19h44 • Atualizado em 04/06/2025 11h48",
                                                               }),
                                                               (0, t.jsx)("h1", { className: "text-2xl font-bold text-[#333333]", style: { fontFamily: "Rawline, sans-serif" }, children: "Termo de Uso e Aviso de Privacidade" }),
                                                           ],
@@ -3085,10 +3085,10 @@
                                                                           className: "text-sm text-gray-700 space-y-1 ml-4",
                                                                           style: { fontFamily: "Rawline, sans-serif" },
                                                                           children: [
-                                                                              (0, t.jsx)("li", { children: "â€¢ Autoriza\xe7\xe3o para tratamento de dados pessoais conforme LGPD;" }),
-                                                                              (0, t.jsx)("li", { children: "â€¢ Processo de inscri\xe7\xe3o autom\xe1tica e imediata;" }),
-                                                                              (0, t.jsx)("li", { children: "â€¢ Crit\xe9rios de elegibilidade e participa\xe7\xe3o;" }),
-                                                                              (0, t.jsx)("li", { children: "â€¢ Direitos e responsabilidades dos participantes;" }),
+                                                                              (0, t.jsx)("li", { children: "• Autoriza\xe7\xe3o para tratamento de dados pessoais conforme LGPD;" }),
+                                                                              (0, t.jsx)("li", { children: "• Processo de inscri\xe7\xe3o autom\xe1tica e imediata;" }),
+                                                                              (0, t.jsx)("li", { children: "• Crit\xe9rios de elegibilidade e participa\xe7\xe3o;" }),
+                                                                              (0, t.jsx)("li", { children: "• Direitos e responsabilidades dos participantes;" }),
                                                                           ],
                                                                       }),
                                                                   ],
@@ -3131,14 +3131,14 @@
                                                                                   className: "text-gray-700 mb-6 space-y-2 ml-4",
                                                                                   children: [
                                                                                       (0, t.jsxs)("li", {
-                                                                                          children: ["â€¢ ", (0, t.jsx)("strong", { children: "Consulta autom\xe1tica de dados" }), " em bases governamentais (CPF, RG, CTPS, Cad\xdanico)"],
+                                                                                          children: ["• ", (0, t.jsx)("strong", { children: "Consulta autom\xe1tica de dados" }), " em bases governamentais (CPF, RG, CTPS, Cad\xdanico)"],
                                                                                       }),
                                                                                       (0, t.jsxs)("li", {
-                                                                                          children: ["â€¢ ", (0, t.jsx)("strong", { children: "Verifica\xe7\xe3o de elegibilidade" }), " para programas sociais e de capacita\xe7\xe3o"],
+                                                                                          children: ["• ", (0, t.jsx)("strong", { children: "Verifica\xe7\xe3o de elegibilidade" }), " para programas sociais e de capacita\xe7\xe3o"],
                                                                                       }),
-                                                                                      (0, t.jsxs)("li", { children: ["â€¢ ", (0, t.jsx)("strong", { children: "Notifica\xe7\xf5es via SMS e e-mail" }), " sobre oportunidades dispon\xedveis"] }),
+                                                                                      (0, t.jsxs)("li", { children: ["• ", (0, t.jsx)("strong", { children: "Notifica\xe7\xf5es via SMS e e-mail" }), " sobre oportunidades dispon\xedveis"] }),
                                                                                       (0, t.jsxs)("li", {
-                                                                                          children: ["â€¢ ", (0, t.jsx)("strong", { children: "Compartilhamento de dados" }), " com \xf3rg\xe3os parceiros para oferta de servi\xe7os"],
+                                                                                          children: ["• ", (0, t.jsx)("strong", { children: "Compartilhamento de dados" }), " com \xf3rg\xe3os parceiros para oferta de servi\xe7os"],
                                                                                       }),
                                                                                   ],
                                                                               }),
@@ -3154,10 +3154,10 @@
                                                                               (0, t.jsxs)("ul", {
                                                                                   className: "text-gray-700 mb-4 space-y-1 ml-4",
                                                                                   children: [
-                                                                                      (0, t.jsx)("li", { children: "â€¢ Valida\xe7\xe3o imediata dos dados fornecidos;" }),
-                                                                                      (0, t.jsx)("li", { children: "â€¢ Cria\xe7\xe3o do perfil de participante;" }),
-                                                                                      (0, t.jsx)("li", { children: "â€¢ An\xe1lise de elegibilidade para benef\xedcios;" }),
-                                                                                      (0, t.jsx)("li", { children: "â€¢ Ativa\xe7\xe3o de notifica\xe7\xf5es personalizadas;" }),
+                                                                                      (0, t.jsx)("li", { children: "• Valida\xe7\xe3o imediata dos dados fornecidos;" }),
+                                                                                      (0, t.jsx)("li", { children: "• Cria\xe7\xe3o do perfil de participante;" }),
+                                                                                      (0, t.jsx)("li", { children: "• An\xe1lise de elegibilidade para benef\xedcios;" }),
+                                                                                      (0, t.jsx)("li", { children: "• Ativa\xe7\xe3o de notifica\xe7\xf5es personalizadas;" }),
                                                                                   ],
                                                                               }),
                                                                               (0, t.jsx)("h4", { className: "font-bold text-[#333333] mb-3", children: "4. Tratamento de Dados Pessoais (LGPD)" }),
@@ -3173,11 +3173,11 @@
                                                                                   className: "text-gray-700 mb-4 space-y-1 ml-4",
                                                                                   children: [
                                                                                       (0, t.jsxs)("li", {
-                                                                                          children: ["â€¢ ", (0, t.jsx)("strong", { children: "Art. 7\xba, II" }), " - Cumprimento de obriga\xe7\xe3o legal ou regulat\xf3ria;"],
+                                                                                          children: ["• ", (0, t.jsx)("strong", { children: "Art. 7\xba, II" }), " - Cumprimento de obriga\xe7\xe3o legal ou regulat\xf3ria;"],
                                                                                       }),
-                                                                                      (0, t.jsxs)("li", { children: ["â€¢ ", (0, t.jsx)("strong", { children: "Art. 7\xba, III" }), " - Execu\xe7\xe3o de pol\xedticas p\xfablicas;"] }),
-                                                                                      (0, t.jsxs)("li", { children: ["â€¢ ", (0, t.jsx)("strong", { children: "Art. 7\xba, I" }), " - Consentimento do titular;"] }),
-                                                                                      (0, t.jsxs)("li", { children: ["â€¢ ", (0, t.jsx)("strong", { children: "Art. 7\xba, VI" }), " - Exerc\xedcio regular de direitos;"] }),
+                                                                                      (0, t.jsxs)("li", { children: ["• ", (0, t.jsx)("strong", { children: "Art. 7\xba, III" }), " - Execu\xe7\xe3o de pol\xedticas p\xfablicas;"] }),
+                                                                                      (0, t.jsxs)("li", { children: ["• ", (0, t.jsx)("strong", { children: "Art. 7\xba, I" }), " - Consentimento do titular;"] }),
+                                                                                      (0, t.jsxs)("li", { children: ["• ", (0, t.jsx)("strong", { children: "Art. 7\xba, VI" }), " - Exerc\xedcio regular de direitos;"] }),
                                                                                   ],
                                                                               }),
                                                                               (0, t.jsx)("h4", { className: "font-bold text-[#1351B4] mb-3", children: "DIREITOS DO TITULAR DOS DADOS" }),
@@ -3185,12 +3185,12 @@
                                                                               (0, t.jsxs)("ul", {
                                                                                   className: "text-gray-700 mb-4 space-y-1 ml-4",
                                                                                   children: [
-                                                                                      (0, t.jsxs)("li", { children: ["â€¢ ", (0, t.jsx)("strong", { children: "Confirma\xe7\xe3o da exist\xeancia" }), " de tratamento de dados;"] }),
-                                                                                      (0, t.jsxs)("li", { children: ["â€¢ ", (0, t.jsx)("strong", { children: "Acesso aos dados" }), " tratados;"] }),
-                                                                                      (0, t.jsxs)("li", { children: ["â€¢ ", (0, t.jsx)("strong", { children: "Corre\xe7\xe3o de dados" }), " incompletos, inexatos ou desatualizados;"] }),
-                                                                                      (0, t.jsxs)("li", { children: ["â€¢ ", (0, t.jsx)("strong", { children: "Elimina\xe7\xe3o dos dados" }), " pessoais desnecess\xe1rios ou excessivos;"] }),
-                                                                                      (0, t.jsxs)("li", { children: ["â€¢ ", (0, t.jsx)("strong", { children: "Portabilidade dos dados" }), " a outro fornecedor;"] }),
-                                                                                      (0, t.jsxs)("li", { children: ["â€¢ ", (0, t.jsx)("strong", { children: "Revoga\xe7\xe3o do consentimento" }), " a qualquer momento;"] }),
+                                                                                      (0, t.jsxs)("li", { children: ["• ", (0, t.jsx)("strong", { children: "Confirma\xe7\xe3o da exist\xeancia" }), " de tratamento de dados;"] }),
+                                                                                      (0, t.jsxs)("li", { children: ["• ", (0, t.jsx)("strong", { children: "Acesso aos dados" }), " tratados;"] }),
+                                                                                      (0, t.jsxs)("li", { children: ["• ", (0, t.jsx)("strong", { children: "Corre\xe7\xe3o de dados" }), " incompletos, inexatos ou desatualizados;"] }),
+                                                                                      (0, t.jsxs)("li", { children: ["• ", (0, t.jsx)("strong", { children: "Elimina\xe7\xe3o dos dados" }), " pessoais desnecess\xe1rios ou excessivos;"] }),
+                                                                                      (0, t.jsxs)("li", { children: ["• ", (0, t.jsx)("strong", { children: "Portabilidade dos dados" }), " a outro fornecedor;"] }),
+                                                                                      (0, t.jsxs)("li", { children: ["• ", (0, t.jsx)("strong", { children: "Revoga\xe7\xe3o do consentimento" }), " a qualquer momento;"] }),
                                                                                   ],
                                                                               }),
                                                                               (0, t.jsxs)("div", {
@@ -3362,7 +3362,7 @@
                                   children: [
                                       (0, t.jsx)("a", {
                                           style: { color: "rgb(51, 51, 51)", fontSize: "0.9em", fontWeight: 500, textDecoration: "none" },
-                                          children: (0, t.jsx)(r.default, { src: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Gov.br_logo.svg/1200px-Gov.br_logo.svg.png", alt: "gov.br", width: 100, height: 40, style: { width: "100px", margin: "10px" } }),
+                                          children: (0, t.jsx)(r.default, { src: "/app-cnh/icons/govbr-logo.png", alt: "gov.br", width: 100, height: 40, style: { width: "100px", margin: "10px" } }),
                                       }),
                                       (0, t.jsx)(u, { showUserButton: !1 }),
                                   ],
@@ -3482,7 +3482,7 @@
                                   children: [
                                       (0, t.jsx)("a", {
                                           style: { color: "rgb(51, 51, 51)", fontSize: "0.9em", fontWeight: 500, textDecoration: "none" },
-                                          children: (0, t.jsx)(r.default, { src: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Gov.br_logo.svg/1200px-Gov.br_logo.svg.png", alt: "gov.br", width: 100, height: 40, style: { width: "100px", margin: "10px" } }),
+                                          children: (0, t.jsx)(r.default, { src: "/app-cnh/icons/govbr-logo.png", alt: "gov.br", width: 100, height: 40, style: { width: "100px", margin: "10px" } }),
                                       }),
                                       (0, t.jsx)(u, { showUserButton: !1 }),
                                   ],
@@ -3501,15 +3501,7 @@
                                                   (0, t.jsxs)("div", {
                                                       className: "flex items-center mb-2",
                                                       children: [
-                                                          (0, t.jsx)("img", {
-  src: "https://resgate-promo.site/app-cnh/icons/id-card.png",
-  alt: "CPF",
-  width: 16,
-  height: 16,
-  className: "mr-2",
-  loading: "lazy",
-  decoding: "async"
-}),
+                                                          (0, t.jsx)(r.default, { src: "https://sso.acesso.gov.br/assets/govbr/img/icons/id-card-solid.png", alt: "CPF", width: 16, height: 16, className: "mr-2" }),
                                                           (0, t.jsx)("span", { className: "text-[#333333]", style: { fontFamily: "Rawline, sans-serif", fontSize: "12.8px" }, children: "N\xfamero do CPF" }),
                                                       ],
                                                   }),
