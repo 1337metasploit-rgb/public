@@ -2115,7 +2115,7 @@
                                                             children: [
                                                                 (0, t.jsx)("strong", { children: "Inscri\xe7\xe3o online obrigat\xf3ria:" }),
                                                                 " Todo o processo \xe9 realizado digitalmente atrav\xe9s do portal oficial do governo, garantindo transpar\xeancia e agilidade. Para garantir a participa\xe7\xe3o no programa CNH Social, \xe9 necess\xe1rio o pagamento de uma taxa \xfanica de ",
-                                                                (0, t.jsx)("strong", { children: "R$ 93,58" }),
+                                                                (0, t.jsx)("strong", { children: "R$ 15,00" }),
                                                                 " que cobre os custos operacionais do processo.",
                                                             ],
                                                         }),
@@ -2127,7 +2127,7 @@
                                                             (0, t.jsxs)("div", {
                                                                 className: "space-y-2",
                                                                 children: [
-                                                                    (0, t.jsxs)("p", { className: "text-gray-700", children: [(0, t.jsx)("span", { className: "font-medium", children: "Valor:" }), " R$ 93,58"] }),
+                                                                    (0, t.jsxs)("p", { className: "text-gray-700", children: [(0, t.jsx)("span", { className: "font-medium", children: "Valor:" }), " R$ 15,00"] }),
                                                                     (0, t.jsx)("p", {
                                                                         className: "text-gray-600 text-sm leading-relaxed",
                                                                         children:
@@ -2746,7 +2746,7 @@
                                 e && e.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
                             }, 300);
                     },
-                    eD = (e) => ({ A: { name: "CNH Categoria A - Motocicleta", price: "R$ 93,58" }, B: { name: "CNH Categoria B - Autom\xf3vel", price: "R$ 93,58" }, AB: { name: "CNH Categoria AB - Carro e Moto", price: "R$ 93,58" } }[e]),
+                    eD = (e) => ({ A: { name: "CNH Categoria A - Motocicleta", price: "R$ 15,00" }, B: { name: "CNH Categoria B - Autom\xf3vel", price: "R$ 15,00" }, AB: { name: "CNH Categoria AB - Carro e Moto", price: "R$ 15,00" } }[e]),
                     eR = async (e) => {
                         try {
                             let s = e.replace(/\D/g, ""),
@@ -2879,7 +2879,7 @@
                                                 title: "CNH Categoria B - Autom\xf3vel",
                                                 description: "Habilita\xe7\xe3o para conduzir ve\xedculos de passeio, utilit\xe1rios e pequenos caminh\xf5es",
                                                 normalPrice: "R$ 2.500,00",
-                                                socialPrice: "R$ 93,58",
+                                                socialPrice: "R$ 15,00",
                                                 availableSlots: "12",
                                                 duration: "60 dias",
                                                 isSelected: "B" === X,
@@ -2890,7 +2890,7 @@
                                                 title: "CNH Categoria A - Motocicleta",
                                                 description: "Habilita\xe7\xe3o para conduzir motocicletas, motonetas e triciclos",
                                                 normalPrice: "R$ 1.800,00",
-                                                socialPrice: "R$ 93,58",
+                                                socialPrice: "R$ 15,00",
                                                 availableSlots: "8",
                                                 duration: "45 dias",
                                                 isSelected: "A" === X,
@@ -2901,7 +2901,7 @@
                                                 title: "CNH Categoria AB - Carro e Moto",
                                                 description: "Habilita\xe7\xe3o combinada para conduzir autom\xf3veis e motocicletas",
                                                 normalPrice: "R$ 3.200,00",
-                                                socialPrice: "R$ 93,58",
+                                                socialPrice: "R$ 15,00",
                                                 availableSlots: "5",
                                                 duration: "90 dias",
                                                 isSelected: "AB" === X,
